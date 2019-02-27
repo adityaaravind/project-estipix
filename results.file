@@ -1,0 +1,24 @@
+# Nmap 7.70 scan initiated Mon Sep  3 19:59:13 2018 as: nmap -oN normal.file 139.5.177.69
+Nmap scan report for 139.5.177.69
+Host is up (0.068s latency).
+Not shown: 983 closed ports
+PORT     STATE    SERVICE
+19/tcp   filtered chargen
+23/tcp   filtered telnet
+25/tcp   open     smtp
+53/tcp   open     domain
+80/tcp   open     http
+81/tcp   open     hosts2-ns
+111/tcp  filtered rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+1723/tcp open     pptp
+1900/tcp filtered upnp
+2323/tcp filtered 3d-nfsd
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+8443/tcp open     https-alt
+
+# Nmap done at Mon Sep  3 19:59:21 2018 -- 1 IP address (1 host up) scanned in 8.79 seconds
